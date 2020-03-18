@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 class demo{
 
   // private variables are better practice in case the developer wants to change accessing rights, but this comparison shows how cumbersome it can be in java
@@ -93,7 +96,7 @@ class demo{
     }
 
     // returns price of an article of clothing
-    public String getPrice(){
+    public int getPrice(){
         return price;
     }
 
@@ -111,5 +114,9 @@ class demo{
     public void setType(String type){
         this.type = type;
     }
+  }
+
+  public static void main(String[] args) {
+    System.out.println("Welcome Customer!");
   }
 }

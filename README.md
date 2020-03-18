@@ -4,9 +4,7 @@ Here we have included an example of code for a clothing store that tracks inform
 
 To run:
 * Download Scala:
-```
     https://www.scala-lang.org/download/
-    ```
 * Compile:
 ```
     $ scalac demo.scalac
@@ -14,4 +12,3 @@ To run:
 * Execute:
 ```
     $ scala demo
-    ```

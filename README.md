@@ -6,9 +6,12 @@ To run:
 * Download Scala:
 ```
     https://www.scala-lang.org/download/
+    ```
 * Compile:
 ```
     $ scalac demo.scalac
+```
 * Execute:
 ```
     $ scala demo
+    ```

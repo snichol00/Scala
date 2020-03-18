@@ -7,7 +7,7 @@ To run:
     https://www.scala-lang.org/download/
 * Compile:
 ```
-    $ scalac demo.scalac
+    $ scalac demo.scala
 ```
 * Execute:
 ```

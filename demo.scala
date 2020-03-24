@@ -14,7 +14,12 @@ object demo{
   }
 
   // each item tracks its characteristics
-  class Item(var id : Int, var style : String, var price : Int, var kind : String)
+  class Item(){
+    var id: Int = _
+    var style: String = _
+    var price: Int = _
+    var kind: String = _
+  }
 
   def main(args: Array[String]) : Unit = {
       var p = new Purchase("boots")

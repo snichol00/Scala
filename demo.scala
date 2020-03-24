@@ -2,7 +2,7 @@ import scala.collection.mutable.ListBuffer
 object demo{
 
   // makes a new customer to track with a name and list of purchases
-  case class Customer(val name : String, var purchases : List[Purchase]){
+  case class Customer(val name : String, val purchases : List[Purchase]){
     def seePurchases() : Unit = for (purchase <- purchases) println(purchase.name)
   }
 

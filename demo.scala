@@ -7,9 +7,9 @@ object demo{
   }
 
   // each purchase has an id and a list of clothes contained
-  class Purchase(var name : String, var id : Int, var clothes: List[Item] = Nil){
+  class Purchase(var name : String, var id : Int, var price : Int, var clothes: List[Item] = Nil){
     def this(n : String)= {
-      this(n, 0, null)
+      this(n, 0, 0, null)
     }
   }
 

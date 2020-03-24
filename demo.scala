@@ -7,10 +7,10 @@ object demo{
   }
 
   // each purchase has an id and a list of clothes contained
-  class Purchase(var name : String, var id : Int, var price : Int, var clothes: List[Item] = Nil){
-    def this(n : String)= {
+  class Purchase(var name : String, var id : Int = 0, var price : Int = 0, var clothes: List[Item] = Nil){
+    /*def this(n : String)= {
       this(n, 0, 0, null)
-    }
+    }*/
   }
 
   // each item tracks its characteristics
